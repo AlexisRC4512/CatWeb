@@ -1,0 +1,5 @@
+com.demo
+com.demo.Controllers
+com.demo.Entities
+com.demo.Repositories
+com.demo.Services
