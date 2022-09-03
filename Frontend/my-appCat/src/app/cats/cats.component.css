@@ -1,0 +1,16 @@
+.CatContainer{
+  background-color: rgb(228, 228, 228);
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: slategray;
+  font-size: 22px;
+  transition: 0.5s all ease;
+}
+.cat{
+  border-radius: 10%;
+  }

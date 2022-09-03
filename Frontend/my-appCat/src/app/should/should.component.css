@@ -1,0 +1,13 @@
+.cat{
+margin-top: -50px;
+border-radius: 10%;
+}
+.cat2{
+  border-radius: 15%;
+}
+@media only screen and (max-width: 600px) {
+  .cat{
+    margin-top: 0px;
+    border-radius: 15%;
+    }
+}

@@ -1,0 +1,24 @@
+<div>
+
+  <div class="CatContainer container rounded-3 mt-3" >
+      <span class="fw-bold m-2">Most Searched Breeds</span>
+      <h1 class="fw-bold m-2">66+Breeds For you <br/> to discover</h1>
+      <div class="d-flex justify-content-end h5">
+        <a routerLink="/SeeMore" routerLinkActive="active" ariaCurrentWhenActive="page">See more <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg></a>
+      </div>
+      <div class="d-md-flex  flex-row">
+      <div *ngFor="let cat of cats" >
+          <div class="p-2 rounded-3 m-2"  style="width: 13rem;">
+            <img src={{cat.foto}} class="card-img-top cat" alt="..." style="height:170px;">
+            <div class="card-body">
+              <h5 class="text">{{cat.raza}}</h5>
+          </div>
+        </div>
+        </div >
+      </div>
+  </div>
+  <router-outlet></router-outlet>
+  <app-should></app-should>
+</div>
